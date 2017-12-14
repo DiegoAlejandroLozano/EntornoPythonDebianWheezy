@@ -1,10 +1,10 @@
 Instalación de Pip, Python y Virtualenv en un sistema Debian Wheezy recién instalado.
 ========================================================================
 
-El desarrollo de este tutorial se va a dividir en tres, las cuales se clasifican en: 
+El desarrollo de este tutorial se va a dividir en tres partes, las cuales se clasifican en: 
 
  - **Parte 1:** Instalación de gestor de paquetes PIP.
- - **Parte 2:** Instalación de versiones de Python diferentes a las que viene por 
+ - **Parte 2:** Instalación de versiones de Python diferentes a las que viene por defecto 
  - **Parte3:** Instalación del Virtualenv.
  
  
@@ -43,7 +43,7 @@ Por defecto, Debian viene instalada con la versión 2.7 de Python. Si se requier
 
 **Paso 1:** Ingresar a la página oficial de [Python](https://www.python.org/downloads/)  y buscar la versión que se desea. 
 
-**Paso 2:** Una vez seleccionada la versión de Python se procede a descargar con el comando wget link-version-python dentro del directorio de su elección.
+**Paso 2:** Una vez seleccionada la versión de Python, se procede a descargar con el comando wget link-version-python.
 
     wget https://www.python.org/ftp/python/3.4.7/Python-3.4.7.tgz
 
